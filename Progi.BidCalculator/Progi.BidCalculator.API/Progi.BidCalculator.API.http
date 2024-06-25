@@ -1,0 +1,6 @@
+@Progi.BidCalculator.API_HostAddress = http://localhost:5143
+
+GET {{Progi.BidCalculator.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
