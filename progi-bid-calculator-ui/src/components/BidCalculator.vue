@@ -16,7 +16,6 @@
               class="form-control w-65"
               v-model="vehicleType"
               @blur="calculateBid"
-              @input="errors = []"
             >
               <option :value="VehicleType.Common">Common</option>
               <option :value="VehicleType.Luxury">Luxury</option>
